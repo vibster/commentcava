@@ -18,7 +18,7 @@ Then, configure commentcava.js corresponding to your domain/subdomain/subfolder
 
 Finally, edit every webpage you want to display comments as following:
 
-add this to <head> or before </body> :
+add this to &lt;head&gt; or before &lt;/body&gt; :
 
 ```html
     <script src="jquery.min.js" type="text/javascript"></script>
@@ -49,5 +49,7 @@ BONUS: what does commentcava means and how to pronounce?
 the french «Comment ça va?» is the equivalent of the english «How are you?»
 I found this fun when searching for a name containing "comment".
 
-How to pronounce it? /kɔ.mɑ̃/ /sa/ /va/
-it might not display correctly, so with html: /kɔ.m&atilde;/ /sa/ /va/
+How to pronounce it?
+Comment: /kɔ.m&atilde;/
+ça     : /sa/
+va     : /va/

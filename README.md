@@ -7,6 +7,15 @@ what is commentcava?
 commentçava is a comment system in javascript for static websites (ie. Jekyll). It is powered by Ajax &amp; a SQlite database and contains a captcha to avoid flood.
 It should work with multiple domains (crossdomains) too, but i haven't tested it.
 
+SQlite format
+-------------
+SQlite contains 1 table: "comments"
+
+```sql
+CREATE TABLE "comments" ("id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL , "post" VARCHAR NOT NULL , "author" VARCHAR NOT NULL , "message" TEXT NOT NULL )
+```
+I didn't need the date, but it would be quite simple to add if required.
+
 How to use it?
 -------------
 Copy files on your webserver.
